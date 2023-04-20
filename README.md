@@ -1,4 +1,4 @@
-# Kafka Connect Join Field Transformer
+# Kafka Connect Tombstonize Transformer
 
 [![Java CI with Gradle](https://github.com/joker1007/kafka-connect-tombstonize-transformer/actions/workflows/build.yml/badge.svg)](https://github.com/joker1007/kafka-connect-tombstonize-transformer/actions/workflows/build.yml)
 
