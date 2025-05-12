@@ -50,6 +50,17 @@ classes {
     dependsOn tasks.spotlessApply
 }
 
+distributions {
+    main {
+        contents {
+            exclude("**/connect-api*.jar")
+            exclude("**/connect-json*.jar")
+            exclude("**/connect-runtime*.jar")
+            exclude("**/connect-transforms*.jar")
+        }
+    }
+}
+
 distTar {
     compression = Compression.GZIP
     archiveExtension = "tar.gz"
